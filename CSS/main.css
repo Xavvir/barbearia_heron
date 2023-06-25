@@ -71,6 +71,13 @@ nav {
     text-decoration: none;
 }
 
+.imagens{
+    background: #23232e;
+    display: flex;
+    flex-direction:row;
+    
+}
+
 .text-principal{
     font-size: 2rem;
     padding-top: 1rem;
@@ -104,10 +111,12 @@ main{
     margin: 8px;
 }
 
+
 @media (max-width: 1400px) {
     body{
         overflow-x: hidden;     /*Se algo trasnborda a aba, será esconder*/
     }
+
     .nav-list{
         position: absolute;
         top: 8vh;
