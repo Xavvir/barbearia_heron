@@ -10,7 +10,7 @@ a{
     
 }
 
-a:hover{
+a:hover{   /*efeito para quando passar o mouse*/
     opacity: 0.6;
 }
 
@@ -31,7 +31,7 @@ nav {
 }
 
 .principal{
-    background-image: url(/Imagens/fundo.jpg);
+    background-image: url(/Imagens/pexels-nikolaos-dimou-1319459.jpg);
     height: 25rem;
     width: 95,1%;
     background-size:cover;
@@ -99,7 +99,7 @@ main{
     margin-left: 36px;
 }
 
-.mobile-menu.active{
+.mobile-menu{
     display: none;
     cursor: pointer;
 }
@@ -115,7 +115,7 @@ main{
 
 @media (max-width: 750px) {
     body {
-        overflow-x: hidden;     /*Se algo trasnborda a aba, será esconder*/
+        overflow-x: hidden;     /*Se algo trasnborda a aba, irá esconder*/
     }
 
     .nav-list{
