@@ -86,6 +86,7 @@ nav {
 
 .numero{
     padding-left: 8px;
+    font-size: 2.5vh;
 }
 
 .botao{
@@ -118,10 +119,13 @@ nav {
     
 }*/
 
-.text-principal{
-    font-size: 2rem;
-    padding-top: 1rem;
-    padding-right: 3rem;
+.desenvolvido{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 5vh;
+    color: #fff;
+    font-size: 2.5vh;
 }
 
 main{
