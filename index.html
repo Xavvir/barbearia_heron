@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,21 +9,33 @@
     <link rel="stylesheet" href="/CSS/owl.carousel.min.css">
     <link rel="stylesheet" href="/CSS/owl.theme.default.min.css">
     <link rel="sortcut icon" href="/Imagens/tesouras.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>Barbearia Heron</title>
 </head>
+
 <body>
     <header>
-        <nav>
+        <nav class="nav">
             <a href="/"><img src="/Imagens/logo branco sem fundo1.png" alt="logo" style="height: 20vh;"></a>
             <div class="mobile-menu">
                 <div class="line1"></div>
                 <div class="line2"></div>
                 <div class="line3"></div>
             </div>
-            <ul class="nav-list"> 
-                <li><a href="#servicos">Serviços</a></li>
-                <li><a href="#endereco">Localização</a></li>
-                <li><a href="#Contat">Contato</a></li>
+            <ul class="nav-list">
+                <li><a href="#servicos">
+                        <h4>Serviços</h4>
+                    </a></li>
+                <li><a href="#endereco">
+                        <h4>Localização</h4>
+                    </a></li>
+                <li><a href="#Contat">
+                        <h4>Contato</h4>
+                    </a></li>
             </ul>
         </nav>
     </header>
@@ -30,48 +43,64 @@
     <main>
         <div class="fundo">
             <div class="principal">
-                <p>Seja bem vindo(a)</p>
-                <p class="text-principal">Agende agora com um de nossos barbeiros</p>
+                <h1>Seja bem vindo(a)</h1><br>
+                <h2 class="text-principal">Agende agora com um de nossos barbeiros</h2><br>
                 <a href="https://instagram.com/heronbarbearia?igshid=MzRlODBiNWFlZA==" target="_blank">
-                    <button class="botao">Agendar</button>
+                    <button class="botao">
+                        <h4>Agendar</h4>
+                    </button>
                 </a>
+            </div>
+            <div>
+                <picture>
+                    <img class="principal1" src="/Imagens/heron.jpeg" alt="funcionário">
+                </picture>
             </div>
         </div>
     </main>
 
-    <div class="servicos" id="servicos">
+    <section class="servicos-top">
+        <h4>Conheça a Barbearia</h4>
+        </p>
+    </section>
+
+    <section class="ambiente">
+
+    </section>
+
+    <section class="servicos" id="servicos">
         <div>
-            <p class="servicos-top">Serviços</p>
-                <ul class="servicos-lista">
-                    <div>
-                        <p style="text-align: center; padding-bottom: 10px;">Corte</p>
-                        <img src="/Imagens/servico-1.png" alt="Corte" style="height: 28vh;">
-                    </div>
-                    <div>
-                        <p style="text-align: center; padding-bottom: 10px;">Barba</p>
-                        <img src="/Imagens/servico-2.png" alt="Corte" style="height: 28vh;">
-                    </div>
-                    <div>
-                        <p style="text-align: center; padding-bottom: 10px;">Cabelo</p>
-                        <img src="/Imagens/servico-3.png" alt="Corte" style="height: 28vh;">
-                    </div>
-                    <div>
-                        <p style="text-align: center; padding-bottom: 10px;">Sobrancelha</p>
-                        <img src="/Imagens/sobrancelha1.png" alt="Corte" style="height: 28vh;">
-                    </div>
-                    <div>
-                        <p style="text-align: center; padding-bottom: 10px;">Tintura</p>
-                        <img src="/Imagens/tintura.png" alt="Corte" style="height: 28vh;">
-                    </div>
-                </ul>
-            <p class="servicos-top">
-                Alguns de nossos trabalhos
-            </p>
+            <h4 class="servicos-top">Serviços</h4>
+            <ul class="servicos-lista">
+                <div>
+                    <h5 style="text-align: center; padding-bottom: 10px;">Corte</h5>
+                    <img src="/Imagens/servico-1.png" alt="Corte" style="height: 28vh;">
+                </div>
+                <div>
+                    <h5 style="text-align: center; padding-bottom: 10px;">Barba</h5>
+                    <img src="/Imagens/servico-2.png" alt="Corte" style="height: 28vh;">
+                </div>
+                <div>
+                    <h5 style="text-align: center; padding-bottom: 10px;">Cabelo</h5>
+                    <img src="/Imagens/servico-3.png" alt="Corte" style="height: 28vh;">
+                </div>
+                <div>
+                    <h5 style="text-align: center; padding-bottom: 10px;">Sobrancelha</h5>
+                    <img src="/Imagens/sobrancelha1.png" alt="Corte" style="height: 28vh;">
+                </div>
+                <div>
+                    <h5 style="text-align: center; padding-bottom: 10px;">Tintura</h5>
+                    <img src="/Imagens/tintura.png" alt="Corte" style="height: 28vh;">
+                </div>
+            </ul>
         </div>
-    </div>
-    
+    </section>
+
     <div class="carrosel-fotos">
         <div>
+            <h4 class="servicos-top">
+                Alguns de nossos trabalhos
+            </h4>
             <div class="owl-carousel owl-theme">
                 <div class="item">
                     <img class="box-fotos" src="/Imagens/8.jpeg">
@@ -107,38 +136,55 @@
                     <img class="box-fotos" src="/Imagens/12.jpeg">
                 </div>
             </div>
-    </div>
-
-    <footer>
-        <div id="Contat">
-            <div>
-                <iframe id="endereco" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d557.6303517561962!2d-44.000475664339476!3d-19.912816842228242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6978ae9721fc7%3A0xd575d86d4a4082fc!2sHeron%20Barbearia!5e0!3m2!1spt-BR!2sbr!4v1688775718487!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;padding-top: 20px; justify-content: center;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-            <div class="telefone">
-                <p style="justify-content: center; font-size: 3vh;">Heron Lima</p>
-            </div>
-            <div class="telefone">
-                <img src="/Imagens/chamada-telefonica.png" alt="telefone" style="height: 4vh;">
-                <p class="numero">031 98116-8263</p>
-            </div>
-            <div class="contato">
-                <a href="https://api.whatsapp.com/send/?phone=5531981168263&text&type=phone_number&app_absent=0" target="_blank"><img class="logo-contato" src="/Imagens/whatsapp-logo.png" alt="whatsapp-logo" style="height: 5vh;"></a>
-                <a href="https://m.facebook.com/Heron.Barbearia" target="_blank"><img class="logo-contato" src="/Imagens/facebook.png" alt="Facebook" style="height: 5vh;"></a>
-                <a href="https://instagram.com/heronbarbearia?igshid=MzRlODBiNWFlZA==" target="_blank"><img class="logo-contato" src="/Imagens/instagram.png" alt="Instagram" style="height: 5vh;"></a>
-            </div>
         </div>
-    </footer>
 
-    <footer>
-        <div class="desenvolvido">
-            <p>Desenvolvido por</p>
-            <p><a href="https://api.whatsapp.com/send/?phone=31992607408&text&type=phone_number&app_absent=0" target="_blank" style="padding-left: 1vh;">Leandro Xavier</a></p>
-        </div>
-    </footer>
+        <footer>
+            <div id="Contat">
+                <div>
+                    <iframe id="endereco"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d557.6303517561962!2d-44.000475664339476!3d-19.912816842228242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6978ae9721fc7%3A0xd575d86d4a4082fc!2sHeron%20Barbearia!5e0!3m2!1spt-BR!2sbr!4v1688775718487!5m2!1spt-BR!2sbr"
+                        width="100%" height="450" style="border:0;padding-top: 20px; justify-content: center;"
+                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="telefone">
+                    <h6 style="justify-content: center; font-size: 3vh;">Heron Lima</h6>
+                </div>
+                <div class="telefone">
+                    <img src="/Imagens/chamada-telefonica.png" alt="telefone" style="height: 4vh;">
+                    <h6 class="numero">031 98116-8263</h6>
+                </div>
+                <div class="contato">
+                    <a href="https://api.whatsapp.com/send/?phone=5531981168263&text=Olá%20gostaria%20de%20agendar%20meu%20corte&type=phone_number&app_absent=0"
+                        target="_blank"><img class="logo-contato" src="/Imagens/whatsapp-logo.png" alt="whatsapp-logo"
+                            style="height: 5vh;"></a>
+                    <a href="https://m.facebook.com/Heron.Barbearia" target="_blank"><img class="logo-contato"
+                            src="/Imagens/facebook.png" alt="Facebook" style="height: 5vh;"></a>
+                    <a href="https://instagram.com/heronbarbearia?igshid=MzRlODBiNWFlZA==" target="_blank"><img
+                            class="logo-contato" src="/Imagens/instagram.png" alt="Instagram" style="height: 5vh;"></a>
+                </div>
+            </div>
+            <a class="wpp-fixo"
+                href="https://api.whatsapp.com/send/?phone=5531981168263&text=Olá%20gostaria%20de%20agendar%20meu%20corte&type=phone_number&app_absent=0"
+                target="_blank">
+                <img src="/Imagens/whatsapp-logo.png" alt="whatsapp"
+                    style="height: 50px; background-attachment: scroll;">
+            </a>
+        </footer>
 
-    <script src="https://kit.fontawesome.com/83132023a4.js" crossorigin="anonymous"></script>
-    <script src="/JS/jquery.min.js"></script>
-    <script src="/JS/owl.carousel.min.js"></script>
-    <script src="/JS/main.js"></script>
-    </body>
+        <footer>
+            <div class="desenvolvido">
+                <p>Desenvolvido por</p>
+                <p>
+                    <a href="https://api.whatsapp.com/send/?phone=31992607408&text&type=phone_number&app_absent=0"
+                        target="_blank" style="padding-left: 1vh;">Leandro Xavier</a>
+                </p>
+            </div>
+        </footer>
+
+        <script src="https://kit.fontawesome.com/83132023a4.js" crossorigin="anonymous"></script>
+        <script src="/JS/jquery.min.js"></script>
+        <script src="/JS/owl.carousel.min.js"></script>
+        <script src="/JS/main.js"></script>
+</body>
+
 </html>

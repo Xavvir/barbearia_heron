@@ -1,25 +1,40 @@
-*{
+* {
     margin: 0;
-    padding:0;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0;
+    font-family: Lato, Roboto, sans-serif, 'Times New Roman', Times, serif;
 }
 
-a{
+a {
     color: #fff;
-    text-decoration:none;
-    transition: 0.6s;    
+    text-decoration: none;
+    transition: 0.6s;
 }
 
-a:hover{   /*efeito para quando passar o mouse*/
+a:hover {
+    /*efeito para quando passar o mouse*/
     opacity: 0.6;
+    color: rgba(141, 137, 146, 0.719);
 }
 
-.logo-whats{
+section {
+    padding-top: 4vh;
+}
+
+.ambiente {
+    height: 400px;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url(/Imagens/espaco1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo-whats {
     display: flex;
-    padding-top: 2vh;    
+    padding-top: 2vh;
 }
 
-.logo{
+.logo {
     font-size: 24px;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -28,68 +43,84 @@ a:hover{   /*efeito para quando passar o mouse*/
 
 nav {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Roboto, sans-serif, 'Times New Roman', Times, serif;
     background: #23232e;
     font-size: 3vh;
     height: 21vh;
     padding-top: 2vh;
+    padding-bottom: 2vh;
 }
 
-.principal{
-    background-image: url(/Imagens/fundo1.jpg);
-    height: 45rem;
-    width: 95,1%;
-    background-size:cover;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+.fundo {
+    display: flex;
+    background: #23232e;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+.principal1 {
+    box-shadow: 9px 9px 9px 9px rgba(0, 0, 0, 0.993);
+    height: 600px;
+    border-radius: 50px;
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    background-color: #23232e;
+    font-family: Roboto, sans-serif, 'Times New Roman', Times, serif;
     color: #fff;
-    text-align:start;
-    padding-top: 2rem;
-    padding-left: 2rem;
-    padding-right: 3rem ;
-    font-size: 3rem;
+    text-align: center;
 }
 
-.servicos{
+.servicos {
     font-size: 25vh;
     background-color: #23232e;
     padding-top: 1rem;
 }
 
-.servicos-top{
+.servicos-top {
+    background-color: #23232e;
     font-size: 20px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Roboto, sans-serif, 'Times New Roman', Times, serif;
     color: #fff;
     text-align: center;
     padding-bottom: 4vh;
 }
 
-.servicos-lista{
+.servicos-lista img {
+    border-radius: 30px;
+}
+
+.servicos-lista {
     color: #fff;
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
+    justify-content: space-around;
     font-size: 19px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Roboto, sans-serif, 'Times New Roman', Times, serif;
     text-decoration: none;
     list-style: none;
     padding-bottom: 7vh;
 }
 
-.telefone{
+.telefone {
     color: #fff;
     display: flex;
     justify-content: center;
     padding-top: 7px;
 }
 
-.numero{
+.numero {
     padding-left: 8px;
     font-size: 2.5vh;
 }
 
-.botao{
+.botao {
     display: inline-block;
     padding: 10px 20px;
     font-size: 18px;
@@ -102,15 +133,15 @@ nav {
     background-color: #4CAF50;
     cursor: pointer;
     transition: background-color 0.3s ease;
-  }
-  
-  .botao:hover {
+}
+
+.botao:hover {
     background-color: #23232e;
-  }
-  
-  .botao:active {
+}
+
+.botao:active {
     background-color: #3e8e41;
-  }
+}
 
 /*.imagens{
     background: #23232e;
@@ -119,7 +150,7 @@ nav {
     
 }*/
 
-.desenvolvido{
+.desenvolvido {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -128,26 +159,26 @@ nav {
     font-size: 2.5vh;
 }
 
-main{
-   background-size: cover;
+main {
+    background-size: cover;
 }
 
-.nav-list{
+.nav-list {
     list-style: none;
     display: flex;
 }
 
-.nav-list li{
+.nav-list li {
     letter-spacing: 3px;
     margin-left: 36px;
 }
 
-.mobile-menu{
+.mobile-menu {
     display: none;
     cursor: pointer;
 }
 
-.mobile-menu div{
+.mobile-menu div {
     width: 32px;
     height: 2px;
     background: #fff;
@@ -155,57 +186,75 @@ main{
     transition: 0.3s;
 }
 
-.carrosel-fotos{
+.carrosel-fotos {
     padding-top: 10px;
     background-color: #23232e;
 }
 
-.box-fotos{
+.box-fotos {
     height: 50vh;
-    
+    border-radius: 25px;
 }
 
-.contato{
+.contato {
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     justify-content: center;
     padding-top: 5vh;
     font-size: 19px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Roboto, sans-serif, 'Times New Roman', Times, serif;
     color: #fff;
     padding-bottom: 3vh;
 }
 
-.logo-contato{
+.logo-contato {
     padding-left: 18px;
 }
 
+.wpp-fixo {
+    display: flex;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
 
-@media screen and (max-width:900px)  {
+
+@media screen and (max-width:1200px) {
     .nav-list {
-      list-style: none;
-      display: none;
+        list-style: none;
+        display: none;
     }
-    body{
-        overflow-x: hidden !important; 
+
+    body {
+        overflow-x: hidden !important;
+    }
+
+    .fundo {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .principal1{
+        height: 350px;
     }
 
     .principal{
-        background-image: url(/Imagens/fundo.jpg);
-        background-size:cover;
-        height: 35rem;
+        height: 250px;
     }
 
-    .text-principal{
-        justify-content: center;
-    }
-
-    .servicos-lista{
+    .servicos-lista {
         flex-direction: column;
-        align-items:center;
+        align-items: center;
     }
 
-    .nav-list{
+    .ambiente {
+        background-size: cover;
+        background-attachment: fixed;
+        height: 11rem;
+    }
+
+    .nav-list {
         position: absolute;
         top: 23vh;
         right: 0;
@@ -219,11 +268,13 @@ main{
         transition: transform 0.3s ease-in;
         font-size: 2vh;
     }
-    .nav-list li{
+
+    .nav-list li {
         margin-left: 0;
         opacity: 0;
     }
-    .mobile-menu{
+
+    .mobile-menu {
         display: block;
     }
 }
@@ -235,12 +286,13 @@ main{
 
 @keyframes navLinkFade {
     from {
-    opacity: 0;
-    transform: translateX(50px);
+        opacity: 0;
+        transform: translateX(50px);
     }
+
     to {
-    opacity: 1; 
-    transform: translateX(0);
+        opacity: 1;
+        transform: translateX(0);
     }
 }
 
@@ -248,10 +300,10 @@ main{
     transform: rotate(-45deg) translate(-8px, 8px);
 }
 
-.mobile-menu.active .line2{
+.mobile-menu.active .line2 {
     opacity: 0;
 }
 
-.mobile-menu.active .line3{
+.mobile-menu.active .line3 {
     transform: rotate(45deg)translate(-5px, -7px);
 }
